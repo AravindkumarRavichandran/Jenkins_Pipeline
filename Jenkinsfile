@@ -27,7 +27,6 @@ pipeline {
                     if (resultB.result != 'SUCCESS') {
                         error "Stopping pipeline: Job B failed"
                     }
-                    error "Manually failing pipeline for testing"
                 }
             }
         }
